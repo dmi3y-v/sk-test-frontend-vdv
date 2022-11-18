@@ -1,0 +1,13 @@
+{
+  "name": "sk-test-db-vdv",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "author": "VDV",
+  "license": "ISC",
+  "dependencies": {
+    "aa-sqlite": "^1.0.29",
+    "sqlite3": "^5.1.2"
+  }
+}
