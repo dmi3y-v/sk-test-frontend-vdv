@@ -11,7 +11,7 @@ import ListItem from "@mui/material/ListItem";
 import IconButton from "@mui/material/IconButton";
 import DeleteIcon from "@mui/icons-material/Delete";
 
-const PhoneNumberListItem = () => {
+const PhoneNumbersListItem = () => {
   const phones = useSelector((state) => state.rootSlice.phones);
   const [isLoading, setLoading] = useState(true);
 
@@ -73,4 +73,4 @@ const PhoneNumberListItem = () => {
   }
 };
 
-export default PhoneNumberListItem;
+export default PhoneNumbersListItem;
